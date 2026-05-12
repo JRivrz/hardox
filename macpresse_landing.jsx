@@ -639,32 +639,15 @@ export default function App() {
             background:"rgba(255,255,255,0.92)", backdropFilter:"blur(10px)",
           }}>
             {/* GTA Ambiental logo — left */}
-            <a href="https://gtaambiental.com" target="_blank" rel="noopener noreferrer" style={{ display:"flex", alignItems:"center", textDecoration:"none" }}>
-              <img
-                src="https://gtaambiental.com/wp-content/uploads/gta-ambiental-logo-color.svg"
-                alt="GTA Ambiental"
-                crossOrigin="anonymous"
-                style={{ height:38, objectFit:"contain" }}
-                onError={e => { e.target.style.display='none'; e.target.nextSibling.style.display='flex'; }}
-              />
-              <div style={{ display:'none', alignItems:'center', gap:7 }}>
-                <div style={{ width:28, height:28, background:T.green, borderRadius:6, display:'flex', alignItems:'center', justifyContent:'center', fontSize:'0.9rem' }}>🌿</div>
-                <span style={{ fontFamily:T.font, fontWeight:700, fontSize:'0.82rem', letterSpacing:'0.1em', color:T.text }}>GTA Ambiental</span>
-              </div>
+            <a href="https://gtaambiental.com" target="_blank" rel="noopener noreferrer" style={{ display:"flex", alignItems:"center", textDecoration:"none", gap:8 }}>
+              <div style={{ width:36, height:36, background:T.green, borderRadius:6, display:'flex', alignItems:'center', justifyContent:'center', fontSize:'1.1rem', fontWeight:'bold', color:T.white }}>GTA</div>
+              <span style={{ fontFamily:T.font, fontWeight:700, fontSize:'0.82rem', letterSpacing:'0.05em', color:T.text }}>Ambiental</span>
             </a>
+            
             {/* Macpresse logo — right */}
-            <a href="https://www.macpresse.com" target="_blank" rel="noopener noreferrer" style={{ display:"flex", alignItems:"center", textDecoration:"none" }}>
-              <img
-                src="https://www.macpresse.com/wp-content/themes/macpresse-new/assets/img/logo.svg"
-                alt="Macpresse Europa"
-                crossOrigin="anonymous"
-                style={{ height:34, objectFit:"contain" }}
-                onError={e => { e.target.style.display='none'; e.target.nextSibling.style.display='flex'; }}
-              />
-              <div style={{ display:'none', alignItems:'center', gap:7 }}>
-                <div style={{ width:26, height:26, background:T.greenDeep, borderRadius:5, display:'flex', alignItems:'center', justifyContent:'center', fontSize:'0.8rem' }}>⚙</div>
-                <span style={{ fontFamily:T.font, fontWeight:700, fontSize:'0.8rem', letterSpacing:'0.12em', color:T.text }}>MACPRESSE</span>
-              </div>
+            <a href="https://www.macpresse.com" target="_blank" rel="noopener noreferrer" style={{ display:"flex", alignItems:"center", textDecoration:"none", gap:8 }}>
+              <div style={{ width:34, height:34, background:T.greenDeep, borderRadius:5, display:'flex', alignItems:'center', justifyContent:'center', fontSize:'0.9rem', fontWeight:'bold', color:T.white }}>⚙</div>
+              <span style={{ fontFamily:T.font, fontWeight:700, fontSize:'0.8rem', letterSpacing:'0.05em', color:T.text }}>Macpresse</span>
             </a>
           </header>
 
@@ -801,9 +784,9 @@ export default function App() {
           </a>
 
           <div style={{ marginTop:64, display:"flex", alignItems:"center", justifyContent:"center", gap:32, flexWrap:"wrap" }}>
-            <img src="https://gtaambiental.com/wp-content/uploads/gta-ambiental-logo-color.svg" alt="GTA Ambiental" style={{ height:30, objectFit:"contain", opacity:0.7 }} />
+            <div style={{ width:36, height:36, background:T.green, borderRadius:6, display:'flex', alignItems:'center', justifyContent:'center', fontSize:'0.9rem', fontWeight:'bold', color:T.white }}>GTA</div>
             <div style={{ width:1, height:24, background:T.grayDark, opacity:0.5 }} />
-            <img src="https://www.macpresse.com/wp-content/themes/macpresse-new/assets/img/logo.svg" alt="Macpresse Europa" style={{ height:26, objectFit:"contain", opacity:0.7 }} />
+            <div style={{ width:34, height:34, background:T.greenDeep, borderRadius:5, display:'flex', alignItems:'center', justifyContent:'center', fontSize:'0.8rem', fontWeight:'bold', color:T.white }}>⚙</div>
           </div>
           <div style={{ marginTop:24 }}>
             <span style={{ fontFamily:T.font, fontWeight:400, fontSize:"0.5rem", letterSpacing:"0.16em", color:T.neutralLt, textTransform:"uppercase" }}>
