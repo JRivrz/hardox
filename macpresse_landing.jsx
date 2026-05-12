@@ -640,14 +640,14 @@ export default function App() {
           }}>
             {/* GTA Ambiental logo — left */}
             <a href="https://gtaambiental.com" target="_blank" rel="noopener noreferrer" style={{ display:"flex", alignItems:"center", textDecoration:"none", gap:8 }}>
-              <div style={{ width:36, height:36, background:T.green, borderRadius:6, display:'flex', alignItems:'center', justifyContent:'center', fontSize:'1.1rem', fontWeight:'bold', color:T.white }}>GTA</div>
-              <span style={{ fontFamily:T.font, fontWeight:700, fontSize:'0.82rem', letterSpacing:'0.05em', color:T.text }}>Ambiental</span>
+              <div style={{ width:36, height:36, background:T.green, borderRadius:6, display:"flex", alignItems:"center", justifyContent:"center", fontSize:"0.9rem", fontWeight:"bold", color:T.white }}>GTA</div>
+              <span style={{ fontFamily:T.font, fontWeight:700, fontSize:"0.82rem", letterSpacing:"0.05em", color:T.text }}>Ambiental</span>
             </a>
             
             {/* Macpresse logo — right */}
             <a href="https://www.macpresse.com" target="_blank" rel="noopener noreferrer" style={{ display:"flex", alignItems:"center", textDecoration:"none", gap:8 }}>
-              <div style={{ width:34, height:34, background:T.greenDeep, borderRadius:5, display:'flex', alignItems:'center', justifyContent:'center', fontSize:'0.9rem', fontWeight:'bold', color:T.white }}>⚙</div>
-              <span style={{ fontFamily:T.font, fontWeight:700, fontSize:'0.8rem', letterSpacing:'0.05em', color:T.text }}>Macpresse</span>
+              <div style={{ width:34, height:34, background:T.greenDeep, borderRadius:5, display:"flex", alignItems:"center", justifyContent:"center", fontSize:"0.85rem", fontWeight:"bold", color:T.white }}>⚙</div>
+              <span style={{ fontFamily:T.font, fontWeight:700, fontSize:"0.8rem", letterSpacing:"0.05em", color:T.text }}>Macpresse</span>
             </a>
           </header>
 
@@ -784,9 +784,9 @@ export default function App() {
           </a>
 
           <div style={{ marginTop:64, display:"flex", alignItems:"center", justifyContent:"center", gap:32, flexWrap:"wrap" }}>
-            <div style={{ width:36, height:36, background:T.green, borderRadius:6, display:'flex', alignItems:'center', justifyContent:'center', fontSize:'0.9rem', fontWeight:'bold', color:T.white }}>GTA</div>
+            <div style={{ width:36, height:36, background:T.green, borderRadius:6, display:"flex", alignItems:"center", justifyContent:"center", fontSize:"0.9rem", fontWeight:"bold", color:T.white }}>GTA</div>
             <div style={{ width:1, height:24, background:T.grayDark, opacity:0.5 }} />
-            <div style={{ width:34, height:34, background:T.greenDeep, borderRadius:5, display:'flex', alignItems:'center', justifyContent:'center', fontSize:'0.8rem', fontWeight:'bold', color:T.white }}>⚙</div>
+            <div style={{ width:34, height:34, background:T.greenDeep, borderRadius:5, display:"flex", alignItems:"center", justifyContent:"center", fontSize:"0.85rem", fontWeight:"bold", color:T.white }}>⚙</div>
           </div>
           <div style={{ marginTop:24 }}>
             <span style={{ fontFamily:T.font, fontWeight:400, fontSize:"0.5rem", letterSpacing:"0.16em", color:T.neutralLt, textTransform:"uppercase" }}>
